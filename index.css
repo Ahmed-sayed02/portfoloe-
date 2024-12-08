@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background:black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 80%;
+    width: 80%;
+
+}
+nav ul li {
+    padding: 50px 33px;
+    display: inline-block;
+
+
+
+}
+nav ul li a{
+    color:rgb(211, 233, 233);
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    transition: 0.5s;
+    
+    
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+.logo{
+    color:white;
+    font-size: 35px;  
+    text-decoration: none;
+    padding: 7px 23px;
+}
+span{
+    color: rgb(83, 184, 16);
+}
+.butn-sup{
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    padding: 7px 32px ;
+    border-radius: 30px;
+    transition: 0.5s;
+    
+}
+.butn-sup:hover{
+    transform: scale(1.1);
+
+}
+.content{
+    margin-left:8%;
+    margin-top: 12%;
+
+}
+.content .img img{
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 1px white;
+
+    
+
+}
+.content .text{
+    color: white;
+    line-height: 60px;
+    font-weight: bold;
+    width: 100%;
+
+
+}
+.content .text h5{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+.content .text h1{
+    letter-spacing: 1px;
+}
+.content .text h4{
+    font-size:20px ;
+    letter-spacing: 1px;
+
+}
+.content .text p{
+    font-size: 20px;
+    color: hsl(96, 24%, 96%);
+    font-weight: bold;
+ 
+
+}
+.cv{
+    text-decoration: none;
+    background-color: rgb(179, 11, 11);
+    color: aqua;
+    border: 2px sold;
+    border-radius: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 7px 32px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 5px black;
+
+
+}
+.cv:hover{
+    background-color: transparent;
+    border: 1px solid  white ;
+}
+.img{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    
+}
+.content .text i{
+    font-size: 30px;
+    margin: 20px;
+    padding: 8px;
+    color: aqua;
+    transition: 0.5s;
+
+}
+.content .text i:hover{
+    color: white;
+    transform:scale(1.1);
+
+}
